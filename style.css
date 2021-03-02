@@ -3,6 +3,7 @@ body {
   background: url('https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg');
   background-size: 160%;
 }
+
 h1 {
   position: absolute;
   bottom: 70%;
@@ -16,8 +17,9 @@ h1 {
   text-shadow: 2px 2px #000000;
   text-transform: uppercase;
   transition-duration: 1s;
-  -webkit-background-clip: text;
+
 }
+
 h1:hover {
   letter-spacing: 10px;
 }
