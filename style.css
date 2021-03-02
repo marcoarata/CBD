@@ -20,7 +20,8 @@ h1 {
   color: #ffffff;
   text-shadow: 2px 2px #000000;
   text-transform: uppercase;
-  transition-duration: 1s;
+  transition-duration: 2s;
+  -webkit-background-clip: text;
 }
 
 h1:hover {
