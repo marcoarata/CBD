@@ -20,7 +20,7 @@ h1 {
   color: #ffffff;
   text-shadow: 2px 2px #000000;
   text-transform: uppercase;
-  transition-duration: 2s;
+  transition-duration: 1s;
   -webkit-background-clip: text;
 }
 
