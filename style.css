@@ -8,6 +8,14 @@ html {
   background-size: 100%;
 }
 
+body {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align :middle;
+}
+
 h1 {
   position: absolute;
   bottom: 50%;
@@ -21,7 +29,6 @@ h1 {
   text-shadow: 2px 2px #000000;
   text-transform: uppercase;
   transition-duration: 1s;
-  -webkit-background-clip: text;
 }
 
 h1:hover {
@@ -36,3 +43,8 @@ h1:hover {
   transform: rotate(360deg);
 }
 
+#logo {
+  position: absolute;
+  bottom: 15%;
+  left: 43%;
+}
